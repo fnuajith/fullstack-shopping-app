@@ -38,8 +38,8 @@ The application also publishes messages to a kafka topic whenever there is a pro
 - Update path variables - add link to C:\kafka_2.13-2.8.0\bin\windows to be able to run commands from anywhere
 - Create 'data' folder under 'C:\kafka_2.13-2.8.0'
 - Under 'data', create 'zookeeper' and 'kafka' folders
-- Update zookeeper.properties: dataDir=C:/kafka_2.12-2.0.0/data/zookeeper
-- Update server.properties: log.dirs=C:/kafka_2.12-2.0.0/data/kafka
+- Update zookeeper.properties: dataDir=C:/kafka_2.13-2.8.0/data/zookeeper
+- Update server.properties: log.dirs=C:/kafka_2.13-2.8.0/data/kafka
 - Start Zookeeper in one command line: zookeeper-server-start.bat config\zookeeper.properties
 - Start Kafka in another command line: kafka-server-start.bat config\server.properties
 
